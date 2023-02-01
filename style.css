@@ -1,0 +1,36 @@
+.section__container {
+    width: 800px;
+    margin: auto;
+}
+
+.section__game {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.game__card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18%;
+    height: 150px;
+    margin: 10px;
+    font-size: 40px;
+    background-color: darkslategray;
+    color: transparent;
+    border-radius: 20px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.game__card.open {
+    color:darkslategray;
+    background-color:darkgrey;
+}
+
+.game__card.success {
+    color:rgb(159, 172, 172);
+    background-color:rgb(91, 85, 85);
+}
